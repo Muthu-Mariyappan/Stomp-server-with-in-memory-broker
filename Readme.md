@@ -11,7 +11,7 @@
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/callicoder/spring-boot-websocket-chat-demo.git
+git clone https://github.com/Muthu-Mariyappan/Stomp-server-with-in-memory-broker.git
 ```
 
 **2. Run the app with**
