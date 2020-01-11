@@ -18,7 +18,9 @@ var colors = [
 
 function connect(event) {
     username = document.querySelector('#name').value.trim();
-
+    if(stompClient != null){
+    	stompClient.disconnect(function(){});
+    }
     if(username) {
         usernamePage.classList.add('hidden');
         chatPage.classList.remove('hidden');
